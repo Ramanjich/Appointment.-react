@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.appointment-container {
+  background-color: #ffffff;
+  width: 80%;
+  padding-top: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.image-style {
+  height: 300px;
+  width: 300px;
+}
+.mini-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  border-bottom: 4px solid #b5b7c4;
+}
+
+/* form-styles */
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-input-ele {
+  padding: 5px;
+}
+.date-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.date-input-ele {
+  padding: 5px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* container-1 */
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 70px;
+
+  width: 80%;
+}
+.heading-2 {
+  font-size: 20px;
+}
+
+.filter-btn {
+  background-color: transparent;
+  color: #8b5cf6;
+  border-style: solid;
+  border-color: #8b5cf6;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* ul */
+.list-appointments {
+  display: flex;
+  flex-direction: row;
+}
